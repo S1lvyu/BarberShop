@@ -1,6 +1,8 @@
+/*Variables*/
 :root {
   --background-section: gray;
 }
+/*Globals*/
 html {
   font-family: "Open Sans";
   font-style: normal;
@@ -40,28 +42,6 @@ html {
   background: rgba(25, 28, 38, 0.2);
 }
 
-.hero-sub-title-section {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
-  text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.6);
-}
-.hero-title-section {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 85px;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-}
-.hero-text-section {
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
-}
-
 .sub-title-section {
   font-weight: 600;
   font-size: 11px;
@@ -91,7 +71,30 @@ html {
   letter-spacing: 0.02em;
   color: #555555;
 }
+/*HeroSection*/
+.hero-sub-title-section {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title-section {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.hero-text-section {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
 
+/*PortofolioSection*/
 .card {
   width: 170px;
   height: 133px;
@@ -120,6 +123,8 @@ html {
   text-align: center;
   color: #ff6c00;
 }
+
+/*OurBarbersSection*/
 
 .our-barbers .image {
   width: 370px;
