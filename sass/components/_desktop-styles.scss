@@ -1,0 +1,172 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .section {
+    padding: 120px 39px;
+  }
+  .background-container {
+    background: linear-gradient(rgba(25, 28, 38, 0.7), rgba(25, 28, 38, 0.2)),
+      url(../images/header-background-D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1070px;
+    height: 690px;
+    margin-right: 39px;
+  }
+  .side-nav {
+    width: 690px;
+    height: 90px;
+    translate: -44%;
+  }
+  .logo {
+    left: 5px;
+  }
+  .left-menu {
+    padding-left: 100px;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+  }
+
+  .right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-right: 20px;
+  }
+  .about {
+    width: 1200px;
+    &__images {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .services {
+    background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+      url(../images/services-background-D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .services-list {
+    display: flex;
+    gap: 30px;
+  }
+  .services-left-container {
+    width: 570px;
+  }
+
+  .services-right-container {
+    width: 570px;
+  }
+
+  .feedback {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+  }
+
+  .feedbacks-section-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .barbers-grid {
+    display: flex;
+  }
+  .contacts {
+    padding-bottom: 0;
+    display: flex;
+    &__left-container {
+      width: 50%;
+    }
+    &__right-container {
+      display: flex;
+      position: relative;
+      background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+        url(../images/contacts-background-T.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+  }
+  .booking-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 215px;
+    &__input {
+      width: 250px;
+    }
+    &__textarea {
+      width: 590px;
+    }
+  }
+  .address-grid {
+    padding-left: 109px;
+  }
+
+  .working-hours {
+    position: initial;
+    padding-left: 109px;
+  }
+  .contacts-title-modifier {
+    padding-left: 215px;
+  }
+  .contacts-title {
+    padding-left: 109px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .background-container {
+    background: linear-gradient(rgba(25, 28, 38, 0.7), rgba(25, 28, 38, 0.2)),
+      url(../images/header-background-D@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 570px;
+    height: 690px;
+    margin-right: 39px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .services {
+    background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+      url(../images/services-background-D@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .contacts__right-container {
+    background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+      url(../images/contacts-background-D@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

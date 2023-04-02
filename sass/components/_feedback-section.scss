@@ -1,0 +1,70 @@
+.feedback {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.feedbacks-section {
+  display: flex;
+  gap: 30px;
+  &__left-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+    width: 193px;
+    height: 133px;
+    background-color: $background-color;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0 36px;
+  }
+  &__span {
+    font-weight: $text-weight-700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: $main-text-color;
+  }
+  &__sup {
+    font-weight: $text-weight-600;
+    font-size: $main-text-font-size;
+    line-height: 1.37;
+    text-align: center;
+    color: $primary-color;
+  }
+  &__text {
+    font-weight: $text-weight-600;
+    font-size: $subtitle-font-size;
+    line-height: 1.36;
+    text-align: center;
+    color: $main-text-color;
+  }
+  &__right-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 79px;
+  }
+}
+
+.feedbacks-section-right-container {
+  &__text {
+    font-weight: $text-weight-400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+    width: 418px;
+  }
+}

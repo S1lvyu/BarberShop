@@ -1,0 +1,51 @@
+.barbers {
+  background-color: $background-color;
+  margin: 0 auto;
+}
+.barbers-grid {
+  margin: 0;
+}
+.barber {
+  padding: 44px 31px 20px;
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 30px 0;
+  }
+  &__name {
+    margin: 0;
+    font-weight: $text-weight-400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $main-text-color;
+  }
+  &__occupation {
+    margin: 0;
+    font-weight: $text-weight-400;
+    font-size: $secondary-text-font-size;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $primary-color;
+  }
+}
+
+.social-media-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  &__item {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: $white-color;
+    &:hover {
+      fill: $primary-color;
+    }
+  }
+}

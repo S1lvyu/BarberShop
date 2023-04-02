@@ -1,0 +1,29 @@
+.page-footer {
+  height: 130px;
+  position: relative;
+  &__text {
+    font-weight: $text-weight-600;
+    font-size: $subtitle-font-size;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: $secondary-color;
+    position: absolute;
+    left: 31px;
+    bottom: 44px;
+  }
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 79px;
+  &__link {
+    font-weight: $text-weight-600;
+    font-size: $subtitle-font-size;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: $main-text-color;
+  }
+}

@@ -1,0 +1,21 @@
+.about {
+  width: 418px;
+  padding-top: 84px;
+  &__images {
+    display: none;
+  }
+  &__first-text {
+    font-weight: $text-weight-400;
+    font-size: $main-text-font-size;
+    line-height: 1.62;
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+  }
+  &__second-text {
+    font-weight: $text-weight-400;
+    font-size: $secondary-text-font-size;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+  }
+}
