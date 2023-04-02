@@ -1,0 +1,101 @@
+.contacts {
+  padding-bottom: 0;
+  &__left-container {
+    background-color: #191c26;
+  }
+
+  &__right-container {
+    background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+      url(../images/contacts-background-M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .contacts__right-container {
+    background: linear-gradient(rgba(17, 19, 25, 0.8), rgba(17, 19, 25, 0.7)),
+      url(../images/contacts-background-M@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-top: 46px;
+
+  &__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    width: 356px;
+    height: 27px;
+    &:focus {
+      outline: none;
+      border-color: $white-color;
+      &::placeholder {
+        color: $white-color;
+      }
+    }
+  }
+  &__textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    width: 356px;
+    height: 56px;
+    resize: none;
+    &:focus {
+      outline: none;
+      border-color: $white-color;
+      &::placeholder {
+        color: $white-color;
+      }
+    }
+  }
+}
+.form-button {
+  font-family: "Open Sans";
+  font-weight: $text-weight-600;
+  font-size: $button-font-size;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $white-color;
+  padding: 12px 37px;
+  border: 1px solid $primary-color;
+  border-radius: 25px;
+  background-color: transparent;
+  align-self: center;
+}
+.address-grid {
+  padding: 40px 0 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__link {
+    font-weight: $text-weight-400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: $secondary-color;
+    &--bold {
+      font-weight: $text-weight-700;
+    }
+  }
+}
+
+.address-text {
+  font-weight: $text-weight-400;
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: $secondary-color;
+}

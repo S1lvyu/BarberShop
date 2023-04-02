@@ -26,11 +26,48 @@ html {
 .online-booking-button {
   font-weight: 600;
 }
+.header-navigation {
+  align-items: center;
+}
 
 .header-navigation,
 .hero-section,
-.page-section {
+.page-section,
+.page-header {
   background-color: var(--background-section);
+}
+
+.nav-list-item > .link:hover,
+.nav-list-item > .link:focus {
+  color: #ff6c00;
+}
+
+.header-navigation,
+.page-header,
+.navigation-list,
+.right-navigation-list {
+  display: flex;
+}
+
+.navigation-list,
+.right-navigation-list {
+  gap: 30px;
+  align-items: center;
+}
+
+.header-navigation,
+.navigation-list {
+  flex-grow: 1;
+}
+
+.about {
+  display: flex;
+  gap: 30px;
+}
+
+.about .images-container {
+  display: flex;
+  gap: 30px;
 }
 
 .online-booking-button {
@@ -40,6 +77,7 @@ html {
   text-transform: uppercase;
   letter-spacing: 0.09em;
   background: rgba(25, 28, 38, 0.2);
+  padding: 12px 20px;
 }
 
 .sub-title-section {
@@ -145,4 +183,11 @@ html {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ff6c00;
+}
+
+* {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
